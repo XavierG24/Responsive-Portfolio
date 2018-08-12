@@ -228,7 +228,7 @@ body {
   
   #main-container {
     float:left;
-    width: 75%;
+    width: 75%; 
     min-height: calc(100vh - 70px);
     margin-left: 30px;
   }
@@ -242,13 +242,41 @@ body {
 
   }
 }
+
+
 @media screen and (max-width: 768px) {
+  #masthead {
+    position: fixed;
+  }
+  #logo {
+float:left;
+  }
+  nav {
+float:right;
+  }
   #main-container {
+    float:left;
+    /* width: 90%; */
+    /* max-height: calc(100vh); */
+    /* margin-right: 20px; */
+  }
+  .work {
     width: 100%;
-    max-height: calc(100vh);
   }
   
 }
+
+
 @media screen and (max-width: 640px) {
+  #logo {
+width: 100%;
+margin: 0px;
+  }
+  nav {
+width: 100%;
+/* margin: auto; */
+padding-bottom: 10px;
+float: right;
+  }
   
 } 
